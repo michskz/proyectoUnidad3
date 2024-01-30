@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url(/assets/media/rick-y-morty-fanart-2020_3840x2160_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.welcome-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 56px;
+    color: #fffbfb;
+}
+
+.container {
+    display: flex;
+}
+p {
+    font-size: 25px;
+}
+.topic-box {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #6a809c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 100%;
+}
+
+.topic-box img {
+    width: 100%;
+    max-width: 290px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    border-radius: 60%;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
